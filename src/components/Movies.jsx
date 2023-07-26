@@ -7,16 +7,28 @@ const Movies = () => {
         <h4>Recommended for you</h4>
         <Content>
             <Wrap>
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ranker.com%2Flist%2Fbest-animated-movie-posters%2Frandolph&psig=AOvVaw1kh-tzdLPIkBduWW9maaa6&ust=1690467441965000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi07IzIrIADFQAAAAAdAAAAABAJ" />
+                <img src="/images/how.jpeg" />
             </Wrap>
             <Wrap>
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ranker.com%2Flist%2Fbest-animated-movie-posters%2Frandolph&psig=AOvVaw1kh-tzdLPIkBduWW9maaa6&ust=1690467441965000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi07IzIrIADFQAAAAAdAAAAABAJ" />
+                <img src="images/how.jpeg" />
             </Wrap>
             <Wrap>
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ranker.com%2Flist%2Fbest-animated-movie-posters%2Frandolph&psig=AOvVaw1kh-tzdLPIkBduWW9maaa6&ust=1690467441965000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi07IzIrIADFQAAAAAdAAAAABAJ" />
+                <img src="images/how.jpeg" />
             </Wrap>
             <Wrap>
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ranker.com%2Flist%2Fbest-animated-movie-posters%2Frandolph&psig=AOvVaw1kh-tzdLPIkBduWW9maaa6&ust=1690467441965000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi07IzIrIADFQAAAAAdAAAAABAJ" />
+                <img src="images/how.jpeg" />
+            </Wrap>
+            <Wrap>
+                <img src="/images/how.jpeg" />
+            </Wrap>
+            <Wrap>
+                <img src="images/how.jpeg" />
+            </Wrap>
+            <Wrap>
+                <img src="images/how.jpeg" />
+            </Wrap>
+            <Wrap>
+                <img src="images/how.jpeg" />
             </Wrap>
 
         </Content>
