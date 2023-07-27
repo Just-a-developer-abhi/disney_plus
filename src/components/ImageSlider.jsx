@@ -8,7 +8,7 @@ function ImageSlider() {
     let settings = {
         dots: true,
         infinite: true,
-        speed: 1000,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true
@@ -23,10 +23,10 @@ function ImageSlider() {
             <img src="/images/slider-badag.jpg"/>
         </Wrap>
         <Wrap>
-            <img src="/images/slider-badging.jpg"/>
+            <img src="/images/slider-scale.jpg"/>
         </Wrap>
         <Wrap>
-            <img src="/images/slider-badag.jpg"/>
+            <img src="/images/slider-scales.jpg"/>
         </Wrap>
     </Carousel>
   )
