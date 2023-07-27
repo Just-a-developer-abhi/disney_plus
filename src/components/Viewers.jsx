@@ -90,5 +90,4 @@ const Wrap = styled.div`
             opacity: 1; 
         }
     }
-
 `
