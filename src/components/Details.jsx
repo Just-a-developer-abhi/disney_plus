@@ -10,21 +10,28 @@ const Details = () => {
         <ImgTitle>
           <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78" />
         </ImgTitle>
-        <Controls>
-          <PlayButton>
-
-          </PlayButton>
-          <TrailerButton>
-
-          </TrailerButton>
-          <AddButton>
-
-          </AddButton>
-          <GroupWatchButton>
-
-          </GroupWatchButton>
-
-        </Controls>
+            <Controls>
+              <PlayButton>
+                    <img src='/images/play-icon-black.png'/>
+                    <span>PLAY</span>
+              </PlayButton>
+              <TrailerButton>
+                    <img src='/images/play-icon-white.png'/>
+                    <span>TRAILER</span>
+              </TrailerButton>
+              <AddButton>
+                    <span>+</span>
+              </AddButton>
+              <GroupWatchButton>
+                    <img src='/images/group-icon.png'/>
+              </GroupWatchButton>
+            </Controls>
+            <Subtitle>
+              2018 || 7m || Family, Fantsay, Kids, Animation
+            </Subtitle>
+            <Description>
+              In Toronto, Canada, a Chinese-Canadian woman cooks a meal of baozi for her and her husband. One of her buns comes alive, much to her shock. She raises the steamed bun as a child, feeding and caring for it, as it enjoys the time spent with her.
+            </Description>
     </Container>
   )
 }
@@ -68,18 +75,72 @@ const ImgTitle = styled.div`
     }
 `
 const Controls = styled.div`
-
+    display: flex;
+    align-items: center;
 `
 
-const PlayButton = styled.div`
+const PlayButton = styled.button`
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0px 24px;
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: rgb(249, 249, 249);
+    border: none;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgb(198, 198, 198);
+    }
 
 `
-const TrailerButton = styled.div`
+const TrailerButton = styled(PlayButton)`
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    text-transform: uppercase;
 
 `
-const AddButton = styled.div`
+const AddButton = styled.button`
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    margin-right: 16px;
+    
+    span {
+      font-size: 30px;
+      color: white;
+    }
 
+    &:hover {
+      background: rgb(0, 0, 0);
+    }
 `
-const GroupWatchButton = styled.div`
+const GroupWatchButton = styled(AddButton)`
+    background: rgb(0,0,0);
+    &:hover {
+      background: rgba(249,249,249, 0.1);
+    }
+`
 
+const Subtitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    min-height: 15px;
+    margin-top: 26px;
+`
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 `
