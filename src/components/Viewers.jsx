@@ -14,7 +14,6 @@ const Viewers = () => {
             <img src="/images/viewers-pixar.png"/>
             <video autoPlay={true} loop={true} playsInline={true}>
                 <source src='/videos/1564676714-pixar.mp4' type='video/mp4' />
-
             </video>
         </Wrap>
         <Wrap>

@@ -49,7 +49,7 @@ const CTA = styled.div`
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 100px;
     align-items:center;
 
 `
